@@ -25,13 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshotDesktop.png)
 ![](images/screenshotMobile.png)
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/DorotaMroz/Frontend-Mentor-3-column-preview-card-component/edit/main/README.md)
+- Live Site URL: (https://dorotamroz.github.io/Frontend-Mentor-3-column-preview-card-component/)
 
 ## My process
 
