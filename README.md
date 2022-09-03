@@ -45,30 +45,32 @@ Users should be able to:
 ### What I learned
 
 ```css
-/* Btn3 Styling */
+/* Btn1 Styling */
 
-.btn3 button {
+button {
+    background-color: var(--bright-orange);
     border: none;
-    padding: .7rem 1.5rem;
+    padding: .7rem 2rem;
     border-radius: 1rem;
-    color: var(--very-dark-cyan);
-    margin-top: 2rem;
+    margin-left: 0;
+    width: 140px;
     font-weight: 550;
+    text-decoration: none;
     font-size: var(--font-size-p);
-} 
-
-.btn3 button:hover {
-    padding: .63rem 1.43rem;;
-    color: var(--very-light-gray-background-headings-btn);
- }
-
-.button3 {
     background-color: var(--very-light-gray-background-headings-btn);
+    transition-duration: 0.4s;
+    border: 2px solid var(--very-light-gray-background-headings-btn);
+}  
+
+.button1 {
+    background-color: var(--very-light-gray-background-headings-btn);
+    color: var(--bright-orange);
  }
 
-.button3:hover {
-    background-color: var(--very-dark-cyan);
-    border: 2px solid var(--very-light-gray-background-headings-btn);
+.button1:hover {
+    background-color: var(--bright-orange);
+    color: var(--very-light-gray-background-headings-btn);
+    cursor: pointer;
  }
 ```
 ### Continued development
