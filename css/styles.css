@@ -2,7 +2,7 @@
 
 /* Base Styling */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -63,29 +63,26 @@ img {
     margin: 0;
 }
 
-/* Card1 Styling */
-
-.card1 {
+.card-containers {
     display: flex;
     flex-direction: column;
     width: 18rem;
     height: auto;
-    background-color: var(--bright-orange);
-    border-radius: .5rem 0 0 .5rem;
     padding: var(--padding-cards);
     gap: var(--gap-cards);
 }
 
+/* Card1 Styling */
 
-/* Image Container1 Styling */
+.card1 {
+    background-color: var(--bright-orange);
+    border-radius: .5rem 0 0 .5rem;
+}
+/* Image Containers Styling */
 
-.image-container1 {
+.image-containers {
     width: 3rem;
     height: auto;
-}
-
-.image-container1 img {
-    object-fit: cover;
 }
 
 /********** Contant1 Styling **********/
@@ -102,52 +99,37 @@ img {
 
 /* Btn1 Styling */
 
-.btn1 button {
+button {
+    background-color: var(--bright-orange);
     border: none;
-    padding: .7rem 1.5rem;
+    padding: .7rem 2rem;
     border-radius: 1rem;
-    color: var(--bright-orange);
-    margin-top: 2rem;
+    margin-left: 0;
+    width: 140px;
     font-weight: 550;
+    text-decoration: none;
     font-size: var(--font-size-p);
-} 
-
-.btn1 button:hover {
-    padding: .63rem 1.43rem;;
-    color: var(--very-light-gray-background-headings-btn);
- }
+    background-color: var(--very-light-gray-background-headings-btn);
+    transition-duration: 0.4s;
+    border: 2px solid var(--very-light-gray-background-headings-btn);
+}  
 
 .button1 {
     background-color: var(--very-light-gray-background-headings-btn);
+    color: var(--bright-orange);
  }
 
 .button1:hover {
     background-color: var(--bright-orange);
-    border: 2px solid var(--very-light-gray-background-headings-btn);
+    color: var(--very-light-gray-background-headings-btn);
+    cursor: pointer;
  }
+
 
  /************ Card2 Styling ************/
 
 .card2 {
-    display: flex;
-    flex-direction: column;
-    width: 18rem;
-    height: auto;
     background-color: var(--dark-cyan);
-    padding: var(--padding-cards);
-    gap: var(--gap-cards);
-}
-
-
-/* Image Container2 Styling */
-
-.image-container2 {
-    width: 3rem;
-    height: auto;
-}
-
-.image-container2 img {
-    object-fit: cover;
 }
 
 /* Contant2 Styling */
@@ -165,53 +147,24 @@ img {
 
 /* Btn2 Styling */
 
-.btn2 button {
-    border: none;
-    padding: .7rem 1.5rem;
-    border-radius: 1rem;
-    color: var(--dark-cyan);
-    margin-top: 2rem;
-    font-weight: 550;
-    font-size: var(--font-size-p);
-} 
-
-.btn2 button:hover {
-    padding: .63rem 1.43rem;;
-    color: var(--very-light-gray-background-headings-btn);
- }
-
 .button2 {
     background-color: var(--very-light-gray-background-headings-btn);
+    color: var(--dark-cyan);
  }
 
 .button2:hover {
     background-color: var(--dark-cyan);
-    border: 2px solid var(--very-light-gray-background-headings-btn);
+    color: var(--very-light-gray-background-headings-btn);
+    cursor: pointer;
  }
 
  /************* Card3 Styling **************/
 
 .card3 {
     display: flex;
-    flex-direction: column;
-    width: 18rem;
-    height: auto;
+    box-sizing: border-box;
     background-color: var(--very-dark-cyan);
     border-radius: 0 .5rem .5rem 0;
-    padding: var(--padding-cards);
-    gap: var(--gap-cards);
-}
-
-
-/* Image Container3 Styling */
-
-.image-container3 {
-    width: 3rem;
-    height: auto;
-}
-
-.image-container3 img {
-    object-fit: cover;
 }
 
 /* Contant3 Styling */
@@ -228,28 +181,15 @@ img {
 
 /* Btn3 Styling */
 
-.btn3 button {
-    border: none;
-    padding: .7rem 1.5rem;
-    border-radius: 1rem;
-    color: var(--very-dark-cyan);
-    margin-top: 2rem;
-    font-weight: 550;
-    font-size: var(--font-size-p);
-} 
-
-.btn3 button:hover {
-    padding: .63rem 1.43rem;;
-    color: var(--very-light-gray-background-headings-btn);
- }
-
 .button3 {
+    color: var(--very-dark-cyan);
     background-color: var(--very-light-gray-background-headings-btn);
  }
 
 .button3:hover {
     background-color: var(--very-dark-cyan);
-    border: 2px solid var(--very-light-gray-background-headings-btn);
+    color: var(--very-light-gray-background-headings-btn);
+    cursor: pointer;
  }
 
  /********************************************** Media Query ************************************************************/
